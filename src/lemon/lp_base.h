@@ -23,7 +23,7 @@
 #include<vector>
 #include<map>
 #include<limits>
-#include<lemon/math.h>
+#include<lemon/lmath.h>
 
 #include<lemon/error.h>
 #include<lemon/assert.h>

@@ -29,7 +29,7 @@
 #include <algorithm>
 
 #include <lemon/core.h>
-#include <lemon/math.h>
+#include <lemon/lmath.h>
 
 namespace lemon {
 

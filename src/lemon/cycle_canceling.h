@@ -29,7 +29,7 @@
 #include <lemon/core.h>
 #include <lemon/maps.h>
 #include <lemon/path.h>
-#include <lemon/math.h>
+#include <lemon/lmath.h>
 #include <lemon/static_graph.h>
 #include <lemon/adaptors.h>
 #include <lemon/circulation.h>

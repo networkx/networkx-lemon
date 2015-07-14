@@ -34,7 +34,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <lemon/math.h>
+#include <lemon/lmath.h>
 
 namespace lemon {
 

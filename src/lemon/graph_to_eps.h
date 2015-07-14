@@ -32,7 +32,7 @@
 #include<lemon/bits/windows.h>
 #endif
 
-#include<lemon/math.h>
+#include<lemon/lmath.h>
 #include<lemon/core.h>
 #include<lemon/dim2.h>
 #include<lemon/maps.h>

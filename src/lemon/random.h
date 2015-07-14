@@ -68,7 +68,7 @@
 #include <limits>
 #include <fstream>
 
-#include <lemon/math.h>
+#include <lemon/lmath.h>
 #include <lemon/dim2.h>
 
 #ifndef WIN32
