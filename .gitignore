@@ -1,0 +1,23 @@
+*.pyc
+__pycache__
+*~
+
+build/*
+dist/*
+*.egg-info/
+
+# Generated when 'python setup.py build_clib'
+# and 'python setup.py build-ext --inplace'
+nxlemon/*.so
+nxlemon/*.*.so
+nxlemon/*.c
+nxlemon/*/*.so
+nxlemon/*/*.*.so
+nxlemon/*/*.c
+
+# Sphinx documentation
+docs/build/
+
+# Sublime Text project files
+*.sublime-project
+*.sublime-workspace
