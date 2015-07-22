@@ -1,0 +1,32 @@
+sudo: false
+
+language: python
+
+python:
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+  - "pypy"
+  - "pypy3"
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+addons:
+  apt:
+    sources:
+      - build-essential
+
+install:
+ - pip install --upgrade pip
+ - pip install --install-option="--no-cython-compile" Cython 
+ - pip install .
+
+script:
+ - cd `mktemp -d`
+ - nosetests -v nxlemon
+
+notifications:
+  email: false
