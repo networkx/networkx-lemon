@@ -23,10 +23,10 @@
 #ifndef LEMON_CONCEPTS_GRAPH_COMPONENTS_H
 #define LEMON_CONCEPTS_GRAPH_COMPONENTS_H
 
-#include <lemon/core.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/core.h"
+#include "lemon/concepts/maps.h"
 
-#include <lemon/bits/alteration_notifier.h>
+#include "lemon/bits/alteration_notifier.h"
 
 namespace lemon {
   namespace concepts {

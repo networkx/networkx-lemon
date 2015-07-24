@@ -25,7 +25,7 @@
 //
 //Up to now this file is used internally by \ref graph_to_eps.h
 
-#include<lemon/dim2.h>
+#include"lemon/dim2.h"
 
 namespace lemon {
   namespace dim2 {

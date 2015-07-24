@@ -16,7 +16,7 @@
  *
  */
 
-#include <lemon/lp_skeleton.h>
+#include "lemon/lp_skeleton.h"
 
 ///\file
 ///\brief A skeleton file to implement LP solver interfaces

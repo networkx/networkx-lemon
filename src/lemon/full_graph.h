@@ -19,8 +19,8 @@
 #ifndef LEMON_FULL_GRAPH_H
 #define LEMON_FULL_GRAPH_H
 
-#include <lemon/core.h>
-#include <lemon/bits/graph_extender.h>
+#include "lemon/core.h"
+#include "lemon/bits/graph_extender.h"
 
 ///\ingroup graphs
 ///\file

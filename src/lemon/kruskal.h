@@ -21,11 +21,11 @@
 
 #include <algorithm>
 #include <vector>
-#include <lemon/unionfind.h>
-#include <lemon/maps.h>
+#include "lemon/unionfind.h"
+#include "lemon/maps.h"
 
-#include <lemon/core.h>
-#include <lemon/bits/traits.h>
+#include "lemon/core.h"
+#include "lemon/bits/traits.h"
 
 ///\ingroup spantree
 ///\file

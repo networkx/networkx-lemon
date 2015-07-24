@@ -22,11 +22,11 @@
 #include <vector>
 #include <algorithm>
 
-#include <lemon/core.h>
-#include <lemon/bits/alteration_notifier.h>
+#include "lemon/core.h"
+#include "lemon/bits/alteration_notifier.h"
 
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
 
 //\ingroup graphbits
 //

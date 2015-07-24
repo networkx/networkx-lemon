@@ -17,7 +17,7 @@
  */
 
 #include <iostream>
-#include <lemon/soplex.h>
+#include "lemon/soplex.h"
 
 #include <soplex.h>
 #include <spxout.h>

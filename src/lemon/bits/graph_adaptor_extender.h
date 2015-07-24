@@ -19,8 +19,8 @@
 #ifndef LEMON_BITS_GRAPH_ADAPTOR_EXTENDER_H
 #define LEMON_BITS_GRAPH_ADAPTOR_EXTENDER_H
 
-#include <lemon/core.h>
-#include <lemon/error.h>
+#include "lemon/core.h"
+#include "lemon/error.h"
 
 namespace lemon {
 

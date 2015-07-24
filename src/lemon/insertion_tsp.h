@@ -25,9 +25,9 @@
 
 #include <vector>
 #include <functional>
-#include <lemon/full_graph.h>
-#include <lemon/maps.h>
-#include <lemon/random.h>
+#include "lemon/full_graph.h"
+#include "lemon/maps.h"
+#include "lemon/random.h"
 
 namespace lemon {
 

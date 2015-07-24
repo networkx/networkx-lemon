@@ -24,12 +24,12 @@
 #include <set>
 #include <limits>
 
-#include <lemon/core.h>
-#include <lemon/unionfind.h>
-#include <lemon/bin_heap.h>
-#include <lemon/maps.h>
-#include <lemon/assert.h>
-#include <lemon/elevator.h>
+#include "lemon/core.h"
+#include "lemon/unionfind.h"
+#include "lemon/bin_heap.h"
+#include "lemon/maps.h"
+#include "lemon/assert.h"
+#include "lemon/elevator.h"
 
 ///\ingroup matching
 ///\file

@@ -25,8 +25,8 @@
 
 #include <vector>
 #include <algorithm>
-#include <lemon/full_graph.h>
-#include <lemon/unionfind.h>
+#include "lemon/full_graph.h"
+#include "lemon/unionfind.h"
 
 namespace lemon {
 

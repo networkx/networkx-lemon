@@ -26,7 +26,7 @@
 #include <iostream>
 #include <sstream>
 #include <algorithm>
-#include <lemon/assert.h>
+#include "lemon/assert.h"
 
 ///\ingroup misc
 ///\file

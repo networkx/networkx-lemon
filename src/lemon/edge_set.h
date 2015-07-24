@@ -19,8 +19,8 @@
 #ifndef LEMON_EDGE_SET_H
 #define LEMON_EDGE_SET_H
 
-#include <lemon/core.h>
-#include <lemon/bits/edge_set_extender.h>
+#include "lemon/core.h"
+#include "lemon/bits/edge_set_extender.h"
 
 /// \ingroup graphs
 /// \file

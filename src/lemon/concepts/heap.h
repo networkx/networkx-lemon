@@ -23,8 +23,8 @@
 ///\file
 ///\brief The concept of heaps.
 
-#include <lemon/core.h>
-#include <lemon/concept_check.h>
+#include "lemon/core.h"
+#include "lemon/concept_check.h"
 
 namespace lemon {
 

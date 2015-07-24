@@ -19,8 +19,8 @@
 #ifndef LEMON_PREFLOW_H
 #define LEMON_PREFLOW_H
 
-#include <lemon/tolerance.h>
-#include <lemon/elevator.h>
+#include "lemon/tolerance.h"
+#include "lemon/elevator.h"
 
 /// \file
 /// \ingroup max_flow

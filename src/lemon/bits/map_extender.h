@@ -21,10 +21,10 @@
 
 #include <iterator>
 
-#include <lemon/bits/traits.h>
+#include "lemon/bits/traits.h"
 
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
 
 //\file
 //\brief Extenders for iterable maps.

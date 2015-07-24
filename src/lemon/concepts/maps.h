@@ -19,8 +19,8 @@
 #ifndef LEMON_CONCEPTS_MAPS_H
 #define LEMON_CONCEPTS_MAPS_H
 
-#include <lemon/core.h>
-#include <lemon/concept_check.h>
+#include "lemon/core.h"
+#include "lemon/concept_check.h"
 
 ///\ingroup map_concepts
 ///\file

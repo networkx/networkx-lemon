@@ -23,8 +23,8 @@
 #include <string>
 #include <vector>
 #include <limits>
-#include <lemon/maps.h>
-#include <lemon/error.h>
+#include "lemon/maps.h"
+#include "lemon/error.h"
 /// \ingroup dimacs_group
 /// \file
 /// \brief DIMACS file format reader.

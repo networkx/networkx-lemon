@@ -19,8 +19,8 @@
 #ifndef LEMON_BITS_PATH_DUMP_H
 #define LEMON_BITS_PATH_DUMP_H
 
-#include <lemon/core.h>
-#include <lemon/concept_check.h>
+#include "lemon/core.h"
+#include "lemon/concept_check.h"
 
 namespace lemon {
 

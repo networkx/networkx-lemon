@@ -24,7 +24,7 @@
 /// \brief 2-opt algorithm for symmetric TSP.
 
 #include <vector>
-#include <lemon/full_graph.h>
+#include "lemon/full_graph.h"
 
 namespace lemon {
 

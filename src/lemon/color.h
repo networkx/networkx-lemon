@@ -20,8 +20,8 @@
 #define LEMON_COLOR_H
 
 #include<vector>
-#include<lemon/lmath.h>
-#include<lemon/maps.h>
+#include"lemon/lmath.h"
+#include"lemon/maps.h"
 
 
 ///\ingroup misc

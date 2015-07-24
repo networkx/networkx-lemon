@@ -25,7 +25,7 @@
 #include <vector>
 #include <string>
 
-#include <lemon/lp_base.h>
+#include "lemon/lp_base.h"
 
 class ClpSimplex;
 

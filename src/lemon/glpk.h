@@ -23,7 +23,7 @@
 ///\brief Header of the LEMON-GLPK lp solver interface.
 ///\ingroup lp_group
 
-#include <lemon/lp_base.h>
+#include "lemon/lp_base.h"
 
 namespace lemon {
 

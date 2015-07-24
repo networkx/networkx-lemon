@@ -27,12 +27,12 @@
 #include <deque>
 #include <limits>
 
-#include <lemon/core.h>
-#include <lemon/maps.h>
-#include <lemon/lmath.h>
-#include <lemon/static_graph.h>
-#include <lemon/circulation.h>
-#include <lemon/bellman_ford.h>
+#include "lemon/core.h"
+#include "lemon/maps.h"
+#include "lemon/lmath.h"
+#include "lemon/static_graph.h"
+#include "lemon/circulation.h"
+#include "lemon/bellman_ford.h"
 
 namespace lemon {
 

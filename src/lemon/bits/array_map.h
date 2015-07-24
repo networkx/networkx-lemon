@@ -21,10 +21,10 @@
 
 #include <memory>
 
-#include <lemon/bits/traits.h>
-#include <lemon/bits/alteration_notifier.h>
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/bits/traits.h"
+#include "lemon/bits/alteration_notifier.h"
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
 
 // \ingroup graphbits
 // \file
