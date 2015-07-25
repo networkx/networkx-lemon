@@ -24,12 +24,12 @@
 /// \file
 /// \brief Implementation of the Nagamochi-Ibaraki algorithm.
 
-#include <lemon/core.h>
-#include <lemon/bin_heap.h>
-#include <lemon/bucket_heap.h>
-#include <lemon/maps.h>
-#include <lemon/radix_sort.h>
-#include <lemon/unionfind.h>
+#include "lemon/core.h"
+#include "lemon/bin_heap.h"
+#include "lemon/bucket_heap.h"
+#include "lemon/maps.h"
+#include "lemon/radix_sort.h"
+#include "lemon/unionfind.h"
 
 #include <cassert>
 

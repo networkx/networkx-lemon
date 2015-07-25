@@ -19,9 +19,9 @@
 ///\file
 ///\brief Some basic non-inline functions and static global data.
 
-#include<lemon/tolerance.h>
-#include<lemon/core.h>
-#include<lemon/time_measure.h>
+#include"lemon/tolerance.h"
+#include"lemon/core.h"
+#include"lemon/time_measure.h"
 namespace lemon {
 
   float Tolerance<float>::def_epsilon = static_cast<float>(1e-4);

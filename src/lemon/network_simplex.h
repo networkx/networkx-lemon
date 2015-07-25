@@ -28,8 +28,8 @@
 #include <limits>
 #include <algorithm>
 
-#include <lemon/core.h>
-#include <lemon/lmath.h>
+#include "lemon/core.h"
+#include "lemon/lmath.h"
 
 namespace lemon {
 

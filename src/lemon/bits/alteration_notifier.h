@@ -22,8 +22,8 @@
 #include <vector>
 #include <list>
 
-#include <lemon/core.h>
-#include <lemon/bits/lock.h>
+#include "lemon/core.h"
+#include "lemon/bits/lock.h"
 
 //\ingroup graphbits
 //\file

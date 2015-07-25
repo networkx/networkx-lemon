@@ -19,13 +19,13 @@
 #ifndef LEMON_BITS_GRAPH_EXTENDER_H
 #define LEMON_BITS_GRAPH_EXTENDER_H
 
-#include <lemon/core.h>
+#include "lemon/core.h"
 
-#include <lemon/bits/map_extender.h>
-#include <lemon/bits/default_map.h>
+#include "lemon/bits/map_extender.h"
+#include "lemon/bits/default_map.h"
 
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
 
 //\ingroup graphbits
 //\file

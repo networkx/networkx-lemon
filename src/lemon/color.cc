@@ -19,7 +19,7 @@
 ///\file
 ///\brief Color constants
 
-#include<lemon/color.h>
+#include"lemon/color.h"
 
 namespace lemon {
 

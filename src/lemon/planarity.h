@@ -26,16 +26,16 @@
 #include <vector>
 #include <list>
 
-#include <lemon/dfs.h>
-#include <lemon/bfs.h>
-#include <lemon/radix_sort.h>
-#include <lemon/maps.h>
-#include <lemon/path.h>
-#include <lemon/bucket_heap.h>
-#include <lemon/adaptors.h>
-#include <lemon/edge_set.h>
-#include <lemon/color.h>
-#include <lemon/dim2.h>
+#include "lemon/dfs.h"
+#include "lemon/bfs.h"
+#include "lemon/radix_sort.h"
+#include "lemon/maps.h"
+#include "lemon/path.h"
+#include "lemon/bucket_heap.h"
+#include "lemon/adaptors.h"
+#include "lemon/edge_set.h"
+#include "lemon/color.h"
+#include "lemon/dim2.h"
 
 namespace lemon {
 

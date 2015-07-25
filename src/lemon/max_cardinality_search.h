@@ -24,11 +24,11 @@
 /// \file
 /// \brief Maximum cardinality search in undirected digraphs.
 
-#include <lemon/bin_heap.h>
-#include <lemon/bucket_heap.h>
+#include "lemon/bin_heap.h"
+#include "lemon/bucket_heap.h"
 
-#include <lemon/error.h>
-#include <lemon/maps.h>
+#include "lemon/error.h"
+#include "lemon/maps.h"
 
 #include <functional>
 

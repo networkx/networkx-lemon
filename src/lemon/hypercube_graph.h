@@ -20,9 +20,9 @@
 #define HYPERCUBE_GRAPH_H
 
 #include <vector>
-#include <lemon/core.h>
-#include <lemon/assert.h>
-#include <lemon/bits/graph_extender.h>
+#include "lemon/core.h"
+#include "lemon/assert.h"
+#include "lemon/bits/graph_extender.h"
 
 ///\ingroup graphs
 ///\file

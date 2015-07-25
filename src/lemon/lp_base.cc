@@ -19,7 +19,7 @@
 ///\file
 ///\brief The implementation of the LP solver interface.
 
-#include <lemon/lp_base.h>
+#include "lemon/lp_base.h"
 namespace lemon {
 
   const LpBase::Value LpBase::INF =

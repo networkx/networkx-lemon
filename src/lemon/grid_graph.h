@@ -19,10 +19,10 @@
 #ifndef GRID_GRAPH_H
 #define GRID_GRAPH_H
 
-#include <lemon/core.h>
-#include <lemon/bits/graph_extender.h>
-#include <lemon/dim2.h>
-#include <lemon/assert.h>
+#include "lemon/core.h"
+#include "lemon/bits/graph_extender.h"
+#include "lemon/dim2.h"
+#include "lemon/assert.h"
 
 ///\ingroup graphs
 ///\file

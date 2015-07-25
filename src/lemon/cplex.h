@@ -22,7 +22,7 @@
 ///\file
 ///\brief Header of the LEMON-CPLEX lp solver interface.
 
-#include <lemon/lp_base.h>
+#include "lemon/lp_base.h"
 
 struct cpxenv;
 struct cpxlp;

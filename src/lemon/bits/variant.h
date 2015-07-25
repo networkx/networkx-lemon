@@ -19,7 +19,7 @@
 #ifndef LEMON_BITS_VARIANT_H
 #define LEMON_BITS_VARIANT_H
 
-#include <lemon/assert.h>
+#include "lemon/assert.h"
 
 // \file
 // \brief Variant types

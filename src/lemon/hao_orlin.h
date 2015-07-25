@@ -23,9 +23,9 @@
 #include <list>
 #include <limits>
 
-#include <lemon/maps.h>
-#include <lemon/core.h>
-#include <lemon/tolerance.h>
+#include "lemon/maps.h"
+#include "lemon/core.h"
+#include "lemon/tolerance.h"
 
 /// \file
 /// \ingroup min_cut

@@ -21,10 +21,10 @@
 
 #include <limits>
 
-#include <lemon/core.h>
-#include <lemon/preflow.h>
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/core.h"
+#include "lemon/preflow.h"
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
 
 /// \ingroup min_cut
 /// \file

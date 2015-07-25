@@ -68,8 +68,8 @@
 #include <limits>
 #include <fstream>
 
-#include <lemon/lmath.h>
-#include <lemon/dim2.h>
+#include "lemon/lmath.h"
+#include "lemon/dim2.h"
 
 #ifndef WIN32
 #include <sys/time.h>
