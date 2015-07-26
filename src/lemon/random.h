@@ -71,7 +71,7 @@
 #include "lemon/lmath.h"
 #include "lemon/dim2.h"
 
-#ifndef WIN32
+#ifndef _WIN32
 #include <sys/time.h>
 #include <ctime>
 #include <sys/types.h>
@@ -605,7 +605,7 @@ namespace lemon {
     /// it uses the \c seedFromTime().
     /// \return Currently always \c true.
     bool seed() {
-#ifndef WIN32
+#ifndef _WIN32
       if (seedFromFile("/dev/urandom", 0)) return true;
 #endif
       if (seedFromTime()) return true;
@@ -625,7 +625,7 @@ namespace lemon {
     /// \param file The source file
     /// \param offset The offset, from the file read.
     /// \return \c true when the seeding successes.
-#ifndef WIN32
+#ifndef _WIN32
     bool seedFromFile(const std::string& file = "/dev/urandom", int offset = 0)
 #else
     bool seedFromFile(const std::string& file = "", int offset = 0)
@@ -647,7 +647,7 @@ namespace lemon {
     /// random sequence.
     /// \return Currently always \c true.
     bool seedFromTime() {
-#ifndef WIN32
+#ifndef _WIN32
       timeval tv;
       gettimeofday(&tv, 0);
       seed(getpid() + tv.tv_sec + tv.tv_usec);

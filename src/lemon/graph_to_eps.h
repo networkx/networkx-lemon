@@ -25,7 +25,7 @@
 #include<algorithm>
 #include<vector>
 
-#ifndef WIN32
+#ifndef _WIN32
 #include<sys/time.h>
 #include<ctime>
 #else
@@ -674,7 +674,7 @@ public:
 
     {
       os << "%%CreationDate: ";
-#ifndef WIN32
+#ifndef _WIN32
       timeval tv;
       gettimeofday(&tv, 0);
 
