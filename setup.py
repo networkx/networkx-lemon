@@ -34,6 +34,7 @@ if __name__ == "__main__":
         maintainer         = 'NetworkX Developers',
         maintainer_email   = 'networkx-discuss@googlegroups.com',
         description        = 'NetworkX Addon to interface with LEMON graph library',
+        packages           = ['nxlemon'],
         libraries          = libraries,
         test_suite         = 'nose.collector',
         tests_require      = ['nose>=0.10.1']
