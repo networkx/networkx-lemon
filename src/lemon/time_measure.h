@@ -23,7 +23,7 @@
 ///\file
 ///\brief Tools for measuring cpu usage
 
-#ifdef WIN32
+#ifdef _WIN32
 #include "lemon/bits/windows.h"
 #else
 #include <unistd.h>
@@ -102,7 +102,7 @@ namespace lemon {
     ///Read the current time values of the process
     void stamp()
     {
-#ifndef WIN32
+#ifndef _WIN32
       timeval tv;
       gettimeofday(&tv, 0);
       rtime=tv.tv_sec+double(tv.tv_usec)/1e6;
