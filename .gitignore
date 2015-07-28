@@ -11,9 +11,11 @@ dist/*
 nxlemon/*.so
 nxlemon/*.*.so
 nxlemon/*.c
+nxlemon/*.cpp
 nxlemon/*/*.so
 nxlemon/*/*.*.so
 nxlemon/*/*.c
+nxlemon/*/*.cpp
 
 # Sphinx documentation
 docs/build/
