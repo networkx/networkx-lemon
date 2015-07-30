@@ -25,6 +25,12 @@ libraries = [
                           glob('src/lemon/bits/*.h'),
                'include_dirs': ['src']})]
 
+ext_modules = cythonize(
+    [Extension('nxlemon.static_graph', ['nxlemon/static_graph.pyx'],
+               include_dirs=['src'],
+               libraries=['lemon'],
+               language='c++')])
+
 
 if __name__ == "__main__":
 
@@ -35,6 +41,7 @@ if __name__ == "__main__":
         maintainer_email   = 'networkx-discuss@googlegroups.com',
         description        = 'NetworkX Addon to interface with LEMON graph library',
         packages           = ['nxlemon'],
+        ext_modules        = ext_modules,
         libraries          = libraries,
         test_suite         = 'nose.collector',
         tests_require      = ['nose>=0.10.1']
